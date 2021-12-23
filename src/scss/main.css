@@ -58,4 +58,42 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+#game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#box-container {
+  margin-bottom: 100px;
+  width: 25%;
+}
+
+#box-container div {
+  width: 6em;
+  height: 6em;
+}
+
+#you-win-message {
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  #box-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  #box-container {
+    width: 75%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

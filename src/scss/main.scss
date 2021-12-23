@@ -34,3 +34,29 @@ footer{
     display: flex;
     flex-direction: column;
 }
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box-container {
+    margin-bottom: 100px;
+    width: 25%;
+    div {
+        width: 6em;
+        height: 6em;
+    }
+}
+#you-win-message {
+color: white;
+}
+@media (max-width: 1200px) {
+   #box-container {
+    width: 50%;
+}
+  }
+  @media (max-width: 800px) {
+    #box-container {
+     width: 75%;
+ }
+   }
